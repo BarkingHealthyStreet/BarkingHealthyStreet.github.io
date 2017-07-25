@@ -428,7 +428,7 @@
         <input type="submit" value="Send">
     </form>
 -->
-                    <form name="sentMessage" id="contactForm" action="//formspree.io/liliana.ortega.g@gmail.com" method="POST" novalidate>
+                    <form name="sentMessage" id="contactForm"  novalidate>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -440,7 +440,7 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <input type="tel" class="form-control" placeholder="Your Phone" id="phone">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -453,13 +453,11 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
+                                <input type="text" name="_gotcha" style="display:none" />
                                 <button type="submit" class="btn btn-xl">Send Message</button>
                             </div>
                         </div>
                     </form>
-
-
-
 
                 </div>
             </div>
@@ -468,10 +466,7 @@
 
 
     <!-- FORMSPREE SECTION -->
-    
 
-<section id="contact">
-   
 
   <!--
     <script>
@@ -479,8 +474,6 @@
     contactform.setAttribute('action', '//formspree.io/' + 'your' + '@' + 'email' + '.' + 'com');
     </script>
   -->
-
- </section>
 
     <!-- Clients Aside -->
     <aside class="clients">
@@ -730,10 +723,10 @@
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
 
-    <!-- Contact Form JavaScript 
+    <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
--->
+
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
 
